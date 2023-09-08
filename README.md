@@ -18,4 +18,4 @@ Here's the tech stack used to create this portfolio website:
 - **Email Service**: Formspree (for contact form submission) PENDING
 
   
-Thanks for visiting my portfolio!
+Thanks for visiting!

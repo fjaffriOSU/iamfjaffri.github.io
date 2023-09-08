@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link rel="stylesheet" href="styles.css">
     <title>Faisal Jaffri - Portfolio</title>
 </head>
@@ -26,7 +28,11 @@
 
     <section class="container mx-auto p-6 bg-white rounded-lg shadow-lg mt-8">
         <div class="mb-6">
-            <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+            <h2 class="text-2xl font-semibold mb-4">
+                <i class="fas fa-user text-blue-500 mr-2"></i>
+                About Me
+            </h2>
+           
             <p class="text-lg text-gray-700 mb-4">I am Faisal Jaffri, with 3 years of experience in the field of data and software. My expertise spans across roles including Data Analyst, Data Engineer, Data Scientist, and Software Developer. My skills include Python, R, SQL, Java, and Swift. I am proficient in data visualization and statistical analysis.</p>
             
             <p class="text-lg text-gray-700 mb-4">I hold a Master's in Management Information System from Oklahoma State University with a GPA of 4.0/4.0.</p>
@@ -39,7 +45,10 @@
 
     <section class="container mx-auto p-6 bg-white rounded-lg shadow-lg mt-8">
         <div class="mb-6">
-            <h2 class="text-2xl font-semibold mb-4">Technical Skills</h2>
+            <h2 class="text-2xl font-semibold mb-4">
+                <i class="fas fa-code text-blue-500 mr-2"></i>
+                Technical Skills
+            </h2>
             <ul class="list-disc pl-6 text-lg text-gray-700 mb-4">
                 <li>Programming and Tools: SQL, PySpark, R (Selenium, NLP, ggplot2), Python (Pandas, NumPy, matplotlib, sci-kit learn), AWS, SAS, Java, ASP.NET, C, C++, MATLAB, Tableau, MS Excel, Power BI, JMP, SQL Server Reporting Service, SQL Server Integration Service.</li>
                 <li>Frameworks & Libraries: Springboot, TensorFlow, PyTorch, Scikit-learn, Pandas</li>
@@ -51,32 +60,29 @@
     </section>
 
     <section class="container mx-auto p-6 bg-white rounded-lg shadow-lg mt-8">
-        <h2 class="text-2xl font-semibold mb-4">Contact Me</h2>
-        <form action="form.php" method="POST">
-            <div class="mb-4">
-                <label for="name" class="block text-gray-700 font-bold mb-2">Name:</label>
-                <input type="text" id="name" name="name" required
-                    class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500">
-            </div>
-
-            <div class="mb-4">
-                <label for="email" class="block text-gray-700 font-bold mb-2">Email:</label>
-                <input type="email" id="email" name="email" required
-                    class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500">
-            </div>
-
-            <div class="mb-4">
-                <label for="message" class="block text-gray-700 font-bold mb-2">Message:</label>
-                <textarea id="message" name="message" rows="4" required
-                    class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500"></textarea>
-            </div>
-
-            <button type="submit"
-                class="bg-blue-500 text-white hover:bg-blue-600 px-4 py-2 rounded-lg focus:outline-none focus:bg-blue-600">
-                Submit
-            </button>
-        </form>
+        <h2 class="text-2xl font-semibold mb-4">
+            <i class="fas fa-envelope text-blue-500 mr-2"></i>
+            Contact Me
+        </h2>
+        <div class="mb-4">
+            <p class="text-lg text-gray-700 mb-4">
+                Hey there, intrepid internet traveler! Got a joke, a funny story, or just want to say hello?
+            </p>
+            <p class="text-xl font-semibold mb-2">
+                Drop me a line at:
+            </p>
+            <p class="text-lg text-gray-700 mb-4">
+                <a href="mailto:your-email@example.com" class="text-blue-500 hover:underline">fjaffri@okstate.edu</a>
+            </p>
+            <p class="text-lg text-gray-700 mb-4">
+                I promise to laugh at your jokes and respond to your messages (unless they're from my robot overlords).
+            </p>
+        </div>
     </section>
+    
+    
+    
+    
 
     <footer class="bg-blue-500 text-white p-4 text-center">
         &copy; 2023 Faisal Jaffri | Connect with me on <a href="https://www.linkedin.com/in/faisal-jaffri-51a068100/" class="underline">LinkedIn</a>
